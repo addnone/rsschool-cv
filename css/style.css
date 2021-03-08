@@ -1,0 +1,267 @@
+.font {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Medium';
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+html, body {margin:0;padding:0;font-family: Barlow; box-sizing: border-box;}
+.main {
+    margin:0 auto; /* Центрируем блоки */
+    width:100%; /* Задаем ширину 100%, чтобы сделать ее резиновой */
+    max-width:1000px; /* Устанавливаем максимальную ширину */
+    height: 1000px;
+    font-family: 'Barlow Condensed';
+}
+.inline div {
+    display:inline-block; /* Делаем блоки по горизонтали */
+    display: -moz-inline-stack; /* Для FireFox 2, тот же самый, что и inline-block */
+    vertical-align:top; /* Выравниваем их сверху */
+    font-size:18px; /* Ставим дочкам размер шрифта, иначе примет значение родителя */
+    /* Для IE 6 и IE 7, чтобы блоки были по горизонтали
+    zoom: 1;
+    */
+}
+div.inline {font-size:0;} /* Ставим родителю значение 0, чтобы убрать отступы у блоков*/
+.left-block {
+    background-color:#166ab8;
+    width:4%;
+    height:97%;
+    margin-top: 20px;
+}
+.content-one {
+    background:white;
+    width:46%;
+    /* height:100%; */
+    max-height: 100%;
+    padding-top: 20px;
+}
+.content-two {
+    background:white;
+    width:46%;
+    /* height:100%; */
+    padding-top: 20px;
+   
+}
+.wrapper {
+    max-width: 90%;
+    height: 100%;
+    max-height: 100%;
+}
+.image-block {
+    vertical-align: middle;
+    height: 30%;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.image {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    height: 280px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 20%;
+    background-color: #166ab8;
+    padding: 4px;
+    
+
+}
+.short-info-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.short-info-block a {
+    text-decoration: none;
+    color: #444440;
+    vertical-align: middle; 
+    margin: 0;
+    text-align: center;
+
+}
+.short-info-block a:hover {
+    color: #166ab8;
+    font-weight: bold;
+}
+.short-info-block nav {
+    align-items: center;
+    text-align: center;
+}
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: center;
+}
+.margin-div {
+    display: block;
+    margin-bottom: 0px;
+    width: 100%;
+}
+h1 {
+    color: #0912E6;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+
+}
+h1.name {
+    margin-bottom: 20px;  
+}
+h2 {
+    color: #0912E6;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    /* line-height: 12pt; */
+    text-align: left;
+    margin: 0;
+
+}
+p {
+    margin: 0;
+}
+p.profession {
+    font-family: 'Barlow Condensed';
+    color: #444440;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+p.info-text {
+    font-family: 'Barlow Condensed';
+    text-align: left;
+    color: #444440;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+hr {
+    color: #e1e1e1;
+    background-color: #e1e1e1;
+    border: none;
+    height: 2px;
+
+}
+.info-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100%;   
+}
+ul {
+    display: block;
+    width: 100%;
+    padding-left: 17px;
+}
+.skills li {
+    text-align: left;
+    list-style-type: square;
+    font-family: 'Barlow Condensed';
+    text-align: left;
+    color: #444440;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+.contact-me ul {
+    padding: 0;
+}
+.contact-me li {
+    list-style-type: none;
+    font-family: 'Barlow Condensed';
+    text-align: left;
+    color: #444440;
+    width: 100%;
+    margin-bottom: 5px;
+    height: 35px;
+    align-items: center;
+    
+
+}
+.contact-me img {
+    max-height: 30px;
+    max-width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.contact-me a {
+    text-decoration: none;
+    color: #444440;
+    vertical-align: middle;    
+}
+.content-block {
+    display: block;
+    margin:0 auto; /* Центрируем блоки */
+    width:100%; /* Задаем ширину 100%, чтобы сделать ее резиновой */
+    max-width:1000px; /* Устанавливаем максимальную ширину */
+    height: 1000px;
+}
+.footer {
+    display: block;
+    margin:0 auto; /* Центрируем блоки */
+    width:100%; /* Задаем ширину 100%, чтобы сделать ее резиновой */
+    max-width:1000px; /* Устанавливаем максимальную ширину */
+    height: 25px;
+    background:#c9cacc;
+    text-align: center;
+}
+.code-example {
+    font-size: 50%;
+    margin-bottom: 20px;
+}
+.code {
+    display: block;
+   
+    max-height: 100%;
+    width: 100%;
+}
+.code pre {
+    display: block;
+    background-color: #F6F6F6;
+    font-family: monospace;
+    white-space: pre;
+    font-size: 80%;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word; 
+    margin-bottom: 5px;
+    
+}
+
+.language li {
+    text-align: left;
+    list-style-type: square;
+    font-family: 'Barlow Condensed';
+    text-align: left;
+    color: #444440;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+
+.experiece li {
+    text-align: left;
+    list-style-type: square;
+    font-family: 'Barlow Condensed';
+    text-align: left;
+    color: #444440;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
